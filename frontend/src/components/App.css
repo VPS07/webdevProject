@@ -1,0 +1,73 @@
+#head h1 b{
+    color:black;
+    margin-right: 400px;
+    font-size: 50px;
+    padding: 0px;
+  }
+  #head{
+    text-align: left;
+    padding-left: 80px;
+  }
+  #head p{
+    font-size:20px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #firstdiv{
+    width:250px;
+  }
+  #image img{
+    width:350px;
+  }
+  #page{
+    display:flex;
+  }
+  .box{
+    font-family: 'Times New Roman';
+        width: 700px;
+        height: 500px;
+        border:30px solid brown ;
+        margin-top: 13px;
+        margin-left: 200px ;
+        color: black;
+        font-size: 16px;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: black;
+        
+    }
+    #name{
+      width:500px;
+      height:30px;
+      color:black;
+      border:4px solid wheat;
+      font-size: 20px;
+    }
+    #boxes{
+      padding:15px;
+    }
+    .form{
+      text-align: center;
+    }
+    #submit{
+      color:white;
+      width:60px;
+      background-color: red;
+      width:200px;
+      height:50px;
+      font-size: 20px;
+      font-weight: bold;
+      
+    }
+    #link{
+      text-decoration: none;
+    }
+    #log{
+      color:red;
+    }
+    #boxess{
+      padding:30px;
+    }
