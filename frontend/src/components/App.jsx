@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./Nav";
-// import Signup from "./ca_auth/Signup";
+import Home from "./Home";
+import CASignup from "./ca_auth/Signup";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
   </header> */}
         <Nav />
 
-        {/* <Routes>
-          <Route path="/casignup" element={<Signup/>} />
-        </Routes> */}
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/casignup" element={<CASignup/>} />
+        </Routes>
 
       </div>
     </Router>
