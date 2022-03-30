@@ -41,7 +41,6 @@ header > .main a {
   text-transform: capitalize;
   text-align: center;
   font-weight: 600;
-  width: 40%;
   padding: 15px;
   font-size: 25px;
   background-color: var(--sunset-orange);
