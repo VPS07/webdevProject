@@ -1,10 +1,22 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./Nav";
+import Signup from "./ca_auth/Signup";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Learn React</p>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {/* <header className="App-header">
+          <Nav />
+  </header> */}
+        <Nav />
+
+        <Routes>
+          <Route path="/casignup" element={<Signup/>} />
+        </Routes>
+
+      </div>
+    </Router>
   );
 }
 

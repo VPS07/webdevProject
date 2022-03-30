@@ -1,6 +1,6 @@
-import "./style/App.css";
-import img1 from "./media/logo.jpeg";
-function Signup() {
+import "../style/App.css";
+import img1 from "../media/logo.jpeg";
+function Login() {
   return (
     <div className="App" id="page">
       <div id="firstdiv">
@@ -16,38 +16,24 @@ function Signup() {
       </div>
       <div class="box">
         <form class="form" action="">
-          <div id="boxes">
+          <div id="boxess">
             <input type="text" placeholder="Enter your name" id="name" />
           </div>
-          <div id="boxes">
-            <input type="text" id="name" placeholder="Enter your username " />
-          </div>
-          <div id="boxes">
-            <input
-              type="number"
-              id="name"
-              placeholder="Enter your contact number"
-            />
-          </div>
-          <div id="boxes">
+          <div id="boxess">
             <input type="email" id="name" placeholder="Enter your email" />
           </div>
-          <div id="boxes">
+          <div id="boxess">
             <input
               type="password"
               id="name"
               placeholder="Enter your password"
             />
           </div>
-          <div id="boxes">
-            <input
-              type="password"
-              id="name"
-              placeholder="please re-enter the password"
-            />
+          <div id="boxess">
+            <input type="password" id="name" placeholder="confirm  password" />
           </div>
           <div>
-            <input type="submit" value="SIGN UP" id="submit" />
+            <input type="submit" value="Login" id="submit" />
           </div>
         </form>
       </div>
@@ -55,4 +41,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Login;
