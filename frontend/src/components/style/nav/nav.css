@@ -1,0 +1,27 @@
+nav {
+    width: 100%;
+    border-bottom: 2px solid #ff483a;
+}
+
+nav > ul {
+    list-style-type: none;
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8f312c;
+}
+
+nav .active {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8f312c;
+}

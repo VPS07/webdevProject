@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./Nav";
-import Signup from "./ca_auth/Signup";
+// import Signup from "./ca_auth/Signup";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
   </header> */}
         <Nav />
 
-        <Routes>
+        {/* <Routes>
           <Route path="/casignup" element={<Signup/>} />
-        </Routes>
+        </Routes> */}
 
       </div>
     </Router>
