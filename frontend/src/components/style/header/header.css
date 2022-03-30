@@ -42,8 +42,8 @@ header > .main a {
   text-align: center;
   font-weight: 600;
   width: 40%;
-  padding: 20px;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 25px;
   background-color: var(--sunset-orange);
   color: var(--alabaster);
   border: 2px solid var(--sunset-orange);
