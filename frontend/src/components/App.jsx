@@ -7,15 +7,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <header className="App-header">
-          <Nav />
-  </header> */}
-        <Nav />
+        {/* <Nav /> */}
 
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/casignup" element={<CASignup/>} />
-        </Routes>
+        </Routes> */}
 
       </div>
     </Router>
