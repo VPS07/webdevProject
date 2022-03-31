@@ -29,9 +29,9 @@ function Login() {
               placeholder="Enter your password"
             />
           </div>
-          <div id="boxess">
+          {/* <div id="boxess">
             <input type="password" id="name" placeholder="confirm  password" />
-          </div>
+          </div> */}
           <div>
             <input type="submit" value="Login" id="submit" />
           </div>
