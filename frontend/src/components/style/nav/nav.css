@@ -31,3 +31,18 @@ nav > ul a {
   text-decoration: none;
   color: var(--cocoa-bean);
 }
+
+nav > ul a:hover {
+  color: var(--sunset-orange);
+  border: 1px solid var(--sunset-orange);
+  border-radius: 25px;
+  padding: 10px;
+  transition: ease 0.15s;
+}
+
+nav .active {
+  color: var(--sunset-orange);
+  border: 1px solid var(--sunset-orange);
+  border-radius: 25px;
+  padding: 10px;
+}

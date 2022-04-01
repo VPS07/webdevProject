@@ -1,0 +1,23 @@
+.about {
+  /* box-sizing: border-box; */
+  background-color: var(--gray);
+  width: 80%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about > .card {
+  width: 35%;
+  text-align: center;
+}
+
+.about > .card > h3 {
+  font-size: 32px;
+}
+
+.about > .card > p {
+  font-size: 25px;
+}
