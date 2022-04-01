@@ -1,3 +1,1 @@
-KaroStartup Campus Ambassdor WebApp
-
-Chithra Boominathan
+KaroStartup Campus Ambassdor WebAp
