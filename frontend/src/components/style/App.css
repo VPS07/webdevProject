@@ -48,9 +48,12 @@
 #name {
   width: 500px;
   height: 30px;
-  color: var(--cod-gray);
+  color: var(--alabaster);
+  background-color: var(--cod-gray);
+  border: 2px solid var(--alabaster);
   font-size: 15px;
   letter-spacing: 3px;
+  padding: 5px;
 }
 #boxes {
   padding: 15px;
