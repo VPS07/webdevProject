@@ -1,4 +1,5 @@
 import "../style/stud_auth/main.css";
+import { NavLink } from "react-router-dom";
 
 function Signup() {
   return (
@@ -27,7 +28,7 @@ function Signup() {
           </div>
           <div class="text">
             <h3>
-              Already have an account? <a href="#">Login now</a>
+              Already have an account? <NavLink to = "/slogin">Login now</NavLink>
             </h3>
           </div>
         </form>

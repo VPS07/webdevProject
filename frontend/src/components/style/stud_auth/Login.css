@@ -32,7 +32,7 @@
   width: 180px;
   border-radius: 170px;
 }
-input{
+input.name{
   width: 300px;
   height: 50px;
   color: white;

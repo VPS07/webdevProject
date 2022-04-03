@@ -1,8 +1,8 @@
 import "../style/App.css";
 import img1 from "../media/logo.jpeg";
-function Login() {
+function Signup() {
   return (
-    <div className="App" id="page">
+    <div id="page">
       <div id="firstdiv">
         <section id="head">
           <h1>
@@ -16,29 +16,21 @@ function Login() {
       </div>
       <div class="box">
         <form class="form" action="">
-          <div id="boxess">
-            <input type="text" placeholder="Enter your name" id="name" />
+          <div id="boxes">
+            <input type="text" id="name" placeholder="Enter your username or email " />
           </div>
-          <div id="boxess">
-            <input type="email" id="name" placeholder="Enter your email" />
-          </div>
-          <div id="boxess">
+          <div id="boxes">
             <input
               type="password"
               id="name"
               placeholder="Enter your password"
             />
           </div>
-          {/* <div id="boxess">
-            <input type="password" id="name" placeholder="confirm  password" />
-          </div> */}
-          <div>
-            <input type="submit" value="Login" id="submit" />
-          </div>
+            <input type="submit" value="LOGIN" id="submit" />
         </form>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Signup;

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 .signup {
+  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #800000;
+  background-color: var(--irish-coffee);
 }
 .wrapper {
   position: relative;
@@ -19,7 +20,7 @@
   padding: 34px;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  background-color: #bc544b;
+  background-color: var(--stiletto);
 }
 .wrapper h2 {
   position: relative;
@@ -50,7 +51,7 @@ form .input-box input {
   font-size: 17px;
   font-weight: 400;
   color: #333;
-  border: 1.5px solid #800000;
+  border: 1.5px solid var(--sunset-orange);
   border-bottom-width: 2.5px;
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -73,7 +74,7 @@ form h3 {
   color: #fff;
   letter-spacing: 1px;
   border: none;
-  background: #bb0a1e;
+  background: var(--sunset-orange);
   cursor: pointer;
 }
 .input-box.button input:hover {

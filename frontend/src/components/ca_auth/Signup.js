@@ -2,7 +2,7 @@ import "../style/App.css";
 import img1 from "../media/logo.jpeg";
 function Signup() {
   return (
-    <div className="App" id="page">
+    <div id="page">
       <div id="firstdiv">
         <section id="head">
           <h1>
