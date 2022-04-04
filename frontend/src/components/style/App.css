@@ -44,13 +44,17 @@
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   background-color: var(--cod-gray);
+  /* background-color: #fff; */
 }
 #name {
   width: 500px;
   height: 30px;
-  color: var(--alabaster);
+  color: var(--cod-gray);
   background-color: var(--cod-gray);
+  /* background-color: #fff; */
   border: 2px solid var(--alabaster);
+  /* border: 2px solid var(--cod-gray); */
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 3px;
   padding: 5px;
@@ -84,6 +88,8 @@
 }
 #submit:hover {
   background-color: var(--cod-gray);
+  /* background-color: #fff;
+  color: var(--sunset-orange); */
 }
 #link {
   text-decoration: none;
