@@ -17,7 +17,7 @@ function Nav() {
           <NavLink to="/about">AboutUs</NavLink>
         </li>
         <li>
-          <NavLink to="/review">Review</NavLink>
+          <NavLink to="/brands">Brands</NavLink>
         </li>
         <li>
           <NavLink to="/faq">Faq's</NavLink>

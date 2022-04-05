@@ -7,6 +7,7 @@ import SUSignup from "./stud_auth/Signup";
 import SULogin from "./stud_auth/Login";
 import About from "./About";
 import FAQ from "./FAQ";
+import Brands from "./Brand";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/slogin" element={<SULogin/>} />
           <Route path="/ssignup" element={<SUSignup/>} />
+          <Route path="/brands" element={<Brands/>} />
         </Routes>
 
       </div>
