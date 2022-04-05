@@ -23,6 +23,10 @@
   background-color: #e4e4e4;
 }
 
+.links > .stud-auth-btn:hover {
+  box-shadow: 0 0 7px var(--sunset-orange);
+}
+
 .home > .main {
   height: 80%;
   display: flex;
