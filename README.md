@@ -19,15 +19,15 @@
 
 
 
-***Tech Stack To Be Used :***
+***UI/UX By :***
+    Vivek Pratap Singh,
+    Challa Golla Bhavya sri,
+    Gaurav Kumar Tripathi
+
+
+
+***Tech Stack :***
     ReactJS,
     Node.js,
     Express.js,
     MongoDB
-
-
-
-UI/UX By :
-    Vivek Pratap Singh
-    Challa Golla Bhavya sri
-    Gaurav Kumar Tripathi
