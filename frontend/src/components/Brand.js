@@ -13,6 +13,9 @@ import logo11 from "./media/brand_logos/logo11.jpg";
 import logo12 from "./media/brand_logos/logo12.jpg";
 
 function Brands() {
+    const white_logo = {
+        background: "#e4e4e4",
+    };
   return (
     <div className="brands-tab">
       <h1>
@@ -22,7 +25,7 @@ function Brands() {
         <div className="logo">
           <img src={logo1} alt="" />
         </div>
-        <div className="logo">
+        <div className="logo" style={white_logo}>
           <img src={logo2} alt="" />
         </div>
         <div className="logo">
