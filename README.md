@@ -1,7 +1,7 @@
-**KaroStartup Campus Ambassdor WebApp
+**KaroStartup Campus Ambassdor WebApp**
 
 
-Group Leaders :
+***Group Leaders :***
     Vivek Pratap Singh
     Gaurav Kumar Tripathi
 
