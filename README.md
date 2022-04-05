@@ -2,27 +2,27 @@
 
 
 ***Group Leaders :***
-    Vivek Pratap Singh
+    Vivek Pratap Singh,
     Gaurav Kumar Tripathi
 
-FrontEnd Development : 
-    Rinkal Kumari
-    Chandana Gubba
-    Challa Golla Bhavya sri
-    Rilwana parveen
-    Chithra Boominathan
+***FrontEnd Development :***
+    Rinkal Kumari,
+    Chandana Gubba,
+    Challa Golla Bhavya sri,
+    Rilwana parveen,
+    Chithra Boominathan,
     Gaurav Kumar Tripathi
 
 
-BackEnd Development :
+***BackEnd Development :***
     Vivek Pratap Singh
 
 
 
-Tech Stack To Be Used :
-    ReactJS
-    Node.js
-    Express.js
+***Tech Stack To Be Used :***
+    ReactJS,
+    Node.js,
+    Express.js,
     MongoDB
 
 
