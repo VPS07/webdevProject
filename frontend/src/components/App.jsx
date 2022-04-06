@@ -14,7 +14,6 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/casignup" element={<CASignup/>} />
