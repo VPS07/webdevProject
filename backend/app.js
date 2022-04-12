@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 app.post("/api/signup", (req, res) => {
   // console.log(req.body);
   if (!req.body) {
-    const hashPassword = bcrypt.hashSync(req.body?.password, salt);
+    const hashPassword = bcrypt.hashSync(req.body.password, salt);
     const userSignupData = {
       role: req.body.role,
       name: req.body.name,
