@@ -33,8 +33,13 @@ app.get("/", (req, res) => {
 // getting data from signup page
 app.post("/api/signup", (req, res) => {
   // console.log(req.body);
+<<<<<<< HEAD
   if (req.body) {
     const hashPassword = bcrypt.hashSync(req.body?.password, salt);
+=======
+  if (!req.body) {
+    const hashPassword = bcrypt.hashSync(req.body.password, salt);
+>>>>>>> d346cf358796cbe80d7522097a4eeef9787feeb1
     const userSignupData = {
       role: req.body.role,
       name: req.body.name,
