@@ -126,6 +126,12 @@ function Signup() {
               value={userDetail.rePassword}
               onChange={handleChange}
             />
+            <p id="passwordWarningca">
+              {userDetail.rePassword &&
+              userDetail.password !== userDetail.rePassword
+                ? "password doesn't match !"
+                : ""}
+            </p>
           </div>
           <div>
             <input

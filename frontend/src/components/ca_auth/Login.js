@@ -8,6 +8,8 @@ function Signup() {
     password: "",
   });
 
+  const [message, setMessage] = useState();
+
   // handling change when user eneter the data
   function handleChange(e) {
     const inputName = e.target.name;
@@ -31,7 +33,13 @@ function Signup() {
         ...userDetail,
       }),
     });
-    const data = res.json();
+    const data = await res.json();
+    if (res.status === 404) {
+      console.log(data);
+    } else {
+      console.log(data.message);
+      setMessage(data.message);
+    }
   };
 
   // handling click when click on submit button
@@ -43,6 +51,7 @@ function Signup() {
       userName: "",
       password: "",
     });
+    setMessage("");
   }
 
   return (
@@ -86,6 +95,7 @@ function Signup() {
             id="submit"
             onClick={handleClick}
           />
+          <p>{message}</p>
         </form>
       </div>
     </div>

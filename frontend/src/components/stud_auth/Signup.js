@@ -60,26 +60,74 @@ function Signup() {
         <h2>Sign Up</h2>
         <form action="#">
           <div class="input-box">
-            <input type="text" placeholder="Enter your name" name="name" value={userDetail.name} onChange={handleChange} required />
+            <input
+              type="text"
+              placeholder="Enter your name"
+              name="name"
+              value={userDetail.name}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div class="input-box">
-            <input type="text" placeholder="User Name" name="userName" value={userDetail.userName} onChange={handleChange} required />
+            <input
+              type="text"
+              placeholder="User Name"
+              name="userName"
+              value={userDetail.userName}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div class="input-box">
-            <input type="number" placeholder="Mobile Number" name="contactNumber" value={userDetail.contactNumber} onChange={handleChange} required />
+            <input
+              type="number"
+              placeholder="Mobile Number"
+              name="contactNumber"
+              value={userDetail.contactNumber}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div class="input-box">
-            <input type="email" placeholder="Email Id" name="userEmail" value={userDetail.userEmail} onChange={handleChange} required />
+            <input
+              type="email"
+              placeholder="Email Id"
+              name="userEmail"
+              value={userDetail.userEmail}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div class="input-box">
-            <input type="password" placeholder="Create password" name="password" value={userDetail.password} onChange={handleChange} required />
+            <input
+              type="password"
+              placeholder="Create password"
+              name="password"
+              value={userDetail.password}
+              onChange={handleChange}
+              required
+            />
           </div>
           <div class="input-box">
-            <input type="password" placeholder="Confirm password" name="rePassword" value={userDetail.rePassword} onChange={handleChange} required />
+            <input
+              type="password"
+              placeholder="Confirm password"
+              name="rePassword"
+              value={userDetail.rePassword}
+              onChange={handleChange}
+              required
+            />
+            <p id="passwordWarning">
+              {userDetail.rePassword &&
+              userDetail.password !== userDetail.rePassword
+                ? "password doesn't match !"
+                : ""}
+            </p>
           </div>
 
           <div class="input-box button">
-            <input type="Submit" value="Register Now" onClick={handleClick}/>
+            <input type="Submit" value="Register Now" onClick={handleClick} />
           </div>
           <div class="text">
             <h3>

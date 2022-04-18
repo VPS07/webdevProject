@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
 // getting data from signup page
 app.post("/api/signup", (req, res) => {
   // console.log(req.body);
-  if (!req.body) {
+  if (req.body) {
     const hashPassword = bcrypt.hashSync(req.body?.password, salt);
     const userSignupData = {
       role: req.body.role,
@@ -48,12 +48,24 @@ app.post("/api/signup", (req, res) => {
 });
 
 // getting data from login page
-app.post("/api/login", (req, res) => {
+app.post("/api/login", async (req, res) => {
   // console.log(req.body);
-  if (!req.body) {
-    const hashPassword = bcrypt.hashSync(req.body.password, salt);
-    const userLoginData = { ...req.body, password: hashPassword };
-    collection.insertOne(userLoginData);
+  if (req.body) {
+    const userLoginData = { ...req.body };
+    const userGetData = await collection.findOne({
+      userName: userLoginData.userName,
+    });
+    const userGetDataPass = userGetData
+      ? bcrypt.compareSync(userLoginData.password, userGetData?.password)
+      : false;
+    if (!userGetDataPass) {
+      res.send({ message: "Wrong user name password!or Please try again" });
+    } else {
+      res.send({ message: "done" });
+    }
+    // console.log(userGetData);
+  } else {
+    res.status(404).send({ error: "something blew up" });
   }
 });
 

@@ -62,7 +62,7 @@
 #boxes {
   padding: 15px;
 }
-.box{
+.box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,4 +99,8 @@
 }
 #boxess {
   padding: 30px;
+}
+#passwordWarningca {
+  color: red;
+  margin-right: 350px;
 }
